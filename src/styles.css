@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(35,56,56);
+}
+.wrapper{
+    margin: 200px auto;
+}
+
+.wrapper{
+    position: relative;
+    height: 500px;
+    width :230px
+}
+
+a{
+    display: inline-block;
+    height: 45px;
+    width: 70px;
+    background-color: rgb(96,125,139);
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid rgb(53,72,82);
+    transition: all 0.5s;
+    box-sizing: border-box;
+    padding-top: 6px;
+}
+.wrapper .nums .zero{
+    width: 146px;
+}
+.wrapper .number:hover{
+    background-color: rgb(53,72,82);
+}
+.wrapper .syms a{
+    background-color: rgb(177,190,197);
+    color: black;
+    border-bottom: 5px solid rgb(137,158,165);
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+.wrapper .syms .plus,
+.wrapper .syms .enter{
+    padding-top: 30px;
+}
+.wrapper .syms a:hover{
+    background-color: rgb(137,158,165);
+}
+.wrapper .syms .plus{
+    position: absolute;
+    height: 96px;
+    top: 0;
+    left: 100%;
+}
+.wrapper .syms .enter{
+    position: absolute;
+    height: 96px;
+    top: 20%;
+    left: 100%;
+}
+.wrapper .syms .sub,
+.wrapper .syms .mul,
+.wrapper .syms .div{
+    position: absolute;
+    bottom: 100%;
+    
+}
+.wrapper .syms .mul{
+    margin-left: 75px;
+}
+.wrapper .syms .div{
+    margin-left: 150px;
+}
+.wrapper .syms .squ{
+    position: absolute;
+    bottom: 100%;
+    margin-left: 229px;
+}
+input{
+    position: absolute;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    height: 70px;
+    width: 290px;
+    bottom: 112%;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
